@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
-    //MARK: Properties
+    // MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     
@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         nameTextField.delegate = self
     }
     
-    //MARK: UITextFieldDelegate
+    // MARK: UITextFieldDelegate
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         // Hide the keyboard.
         textField.resignFirstResponder()
@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         mealNameLabel.text = textField.text
     }
     
-    //MARK: Actions
+    // MARK: Actions
     
     @IBAction func setDefaultLabelText(sender: AnyObject) {
         mealNameLabel.text = "Default Text"
