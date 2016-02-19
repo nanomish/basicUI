@@ -56,6 +56,10 @@
                                     <outletCollection property="gestureRecognizers" destination="9BT-LZ-q8e" appends="YES" id="Rs1-T0-e3J"/>
                                 </connections>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="Rdv-W3-thW" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                <rect key="frame" x="20" y="539" width="320" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -80,7 +84,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="304" y="377"/>
+            <point key="canvasLocation" x="-471" y="-396"/>
         </scene>
     </scenes>
     <resources>
